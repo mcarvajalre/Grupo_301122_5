@@ -15,10 +15,12 @@ body {
 	width: 95%;
 	max-width:1400px;
 	margin:auto;
+	text-align: justify;
 }
 
 	.contenedor p {
 		margin-bottom:40px;
+
 	}
 
 header nav {
