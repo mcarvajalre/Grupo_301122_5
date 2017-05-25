@@ -58,8 +58,8 @@ aside{
 
 footer{
 	width:96.1%;
-	height: 50px;
-	margin-left: 20px;
+	height: 250px;
+	margin-left: 22px;
 	margin-top: 20px;
 	position: relative;
 	float: left;
@@ -70,6 +70,18 @@ footer{
 	line-height: 50px;
 }
 
+#sectionFooter{
+	margin-top: 20PX;
+	margin-bottom:40px;
+	width: 305px;
+	float: left;
+	margin-left: 30px;
+	text-align: justify;
+	border-width: 1px;
+	border-radius: 5px;
+	line-height:20px;
+
+}
 
 
 header nav {
@@ -105,6 +117,24 @@ header nav {
 	left:0;
 	width:100%;
 	box-shadow:0px 4px 3px rgba(0,0,0,.5);
+}
+
+.txtlink2 {
+color:white;
+text-decoration:none;   
+}
+
+.txtlink2:hover {
+color:white;
+text-decoration:none;   
+}
+
+
+#linksinteres{
+   	margin: 0 auto;
+  	left: 0;
+  	right: 0;
+  	width:900px;
 }
 
 #container{
