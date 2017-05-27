@@ -13,7 +13,7 @@ body {
 
 .contenedor {
 	width: 95%;
-	max-width:1400px;
+	max-width:100%x;
 	margin:auto;
 	text-align: justify;
 }
@@ -24,7 +24,7 @@ body {
 
 .contenedor2 {
 	width: 95%;
-	max-width:900px;
+	max-width:90%;
 	margin:auto;
 	text-align: justify;
 }
@@ -36,7 +36,8 @@ body {
 
 section{
 	margin-bottom:40px;
-	width: 828px;
+	margin:auto;
+	width: 63.2%;
 	float: left;
 	margin-left: 40px;
 	text-align: justify;
@@ -45,7 +46,7 @@ section{
 }
 
 aside{
-	width: 428px;
+	width: 30%;
 	border-style: solid;
 	border-width: 1px;
 	border-radius: 5px;
@@ -72,7 +73,7 @@ footer{
 #sectionFooter{
 	margin-top: 20PX;
 	margin-bottom:40px;
-	width: 287px;
+	width: 22.3%;
 	float: left;
 	margin-left: 30px;
 	text-align: justify;
