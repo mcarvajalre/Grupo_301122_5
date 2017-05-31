@@ -65,6 +65,16 @@ aside{
 	margin-left: 20px;
 }
 
+#ascont{
+	width: 30%;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 5px;
+	height: 960px;
+	float: left;
+	margin-left: 20px;
+}
+
 
 footer{
 	width:96.1%;
