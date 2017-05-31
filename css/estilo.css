@@ -87,7 +87,8 @@ footer{
 
 header nav {
 	background:#005883;
-	margin-bottom:30px;
+	margin-bottom:20px;
+	margin-top: 0;
 }
 
 header nav ul {
@@ -223,6 +224,7 @@ text-decoration:none;
 	border:1px solid black;
 	margin: 0 auto;
 	position: relative;
+
 }
 #container>img{
 	width:100%;
