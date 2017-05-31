@@ -13,7 +13,7 @@
 	<link rel="stylesheet" href="css/estilo.css">
 	<script src="http://code.jquery.com/jquery-latest.js"></script>
 	
-	<script src="js/modernizr.js"></script>
+	
 	<link rel="shortcut icon" href="http://datateca.unad.edu.co/ayuda/theme/grisAzul/img/favicon.png" />
 
 	<link href="https://fonts.googleapis.com/css?family=Libre+Franklin" rel="stylesheet">
@@ -40,30 +40,37 @@ src="img/enc_u0ajk3_c_scale,w_600.png"
 alt="">
 </picture>
 
-			
-			<nav class="menu">
-				<ul>
-					<li><a href="#">Inicio</a></li>
-					<li><a href="#">Secciones</a></li>
-					<li><a href="#">Multimedia</a></li>
-					<li><a href="#">Acerca de</a></li>
-					
-				</ul>
-			</nav>
-		</div>
-	</header>
-	<div id="container">
-		<img class="slides" src="slider/1.jpg">
-		<img class="slides" src="slider/2.jpg">
-		<img class="slides" src="slider/3.jpg">
-		<img class="slides" src="slider/4.jpg">
-		<img class="slides" src="slider/5.jpg">
+<div id="container">
+	
 		<img class="slides" src="slider/6.jpg">
 		
-		<button class="btn" onclick="plusIndex(-1)" id="btn1">&#10094;</button>
-		<button class="btn" onclick="plusIndex(1)" id="btn2">&#10095;</button>
+		
 
 	</div>
+
+		<div>
+			<nav>
+			<ul>
+				<li><a href="#">Inicio</a></li>
+				<li><a href="#">Lo Que debes Saber</a>
+ 
+				<div>
+ 					<ul>
+						<li class="titulo naranja"><a href="#">Software Malicioso</a></li>
+						<li class="titulo verde"><a href="#">red Zombie</a></li>
+					</ul>
+					
+				</div>
+ 
+				</li>
+				<li><a href="#">Multimedia</a></li>
+				<li><a href="#">Acerca de</a></li>
+				
+			</ul>
+		</nav>
+		</div>
+	</header>
+	
 	<br>
 	<section>
 		<div >
@@ -168,39 +175,5 @@ alt="">
 <script src="js/prefixfree.min.js"></script>
 <script src="js/jquery-3.2.1.slim.js"></script>
 
-<script>
-var index = 1;
 
-function plusIndex(n){
-	index = index + 1;
-	showImage(index);
-}
-
-showImage(1);
-
-function showImage(n){
-	var i;
-	var x = document.getElementsByClassName("slides");
-	if(n > x.length){ index = 1};
-	if(n < 1){ index = x.length};
-	for(i=0;i<x.length;i++)
-	{
-	x[i].style.display = "none";
-	}
-	x[index-1].style.display = "block";
-}
-autoSlide();
-function autoSlide(){
-	var i;
-	var x = document.getElementsByClassName("slides");
-	for(i=0;i<x.length;i++){
-	x[i].style.display = "none";
-}
-index++;
-if(index > x.length){index = 1}
-x[index-1].style.display = "block";
-setTimeout(autoSlide,2000);
-
-}
-</script>
 </html>
